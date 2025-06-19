@@ -25,17 +25,25 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/svg+xml" href="figures/fig3_modalities.svg">
     
-    <!-- MathJax for equation rendering -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- MathJax configuration -->
     <script>
         window.MathJax = {
             tex: {
                 inlineMath: [['$', '$'], ['\\(', '\\)']],
                 displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            startup: {
+                ready: () => {
+                    console.log('MathJax is loaded and ready');
+                    MathJax.startup.defaultReady();
+                }
             }
         };
     </script>
+    
+    <!-- MathJax for equation rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -302,13 +310,13 @@
                             <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 10px;">
                                 <h4>🔬 Scientific Framework</h4>
                                 <p>Complete mathematical and experimental development</p>
-                                <a href="../build/vacuum_of_being_complete.pdf" class="btn btn-primary">Download v3.0 PDF</a>
+                                <a href="vacuum_of_being_complete.pdf" class="btn btn-primary">Download v3.0 PDF</a>
                             </div>
                             
                             <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 10px;">
                                 <h4>🧠 Original Philosophy</h4>
                                 <p>The foundational philosophical inquiry</p>
-                                <a href="../build/original_philosophical_thesis.pdf" class="btn btn-accent">Download v1.0 PDF</a>
+                                <a href="original_philosophical_thesis.pdf" class="btn btn-accent">Download v1.0 PDF</a>
                             </div>
                             
                             <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 10px;">
@@ -430,6 +438,18 @@
                     this.style.backgroundColor = '';
                 }, 1000);
             });
+        });
+
+        // Force MathJax to reprocess equations when page loads
+        window.addEventListener('load', function() {
+            if (window.MathJax && window.MathJax.typesetPromise) {
+                console.log('Reprocessing MathJax equations...');
+                MathJax.typesetPromise().then(() => {
+                    console.log('MathJax equations processed successfully');
+                }).catch((err) => {
+                    console.error('MathJax processing error:', err);
+                });
+            }
         });
     </script>
 </body>
