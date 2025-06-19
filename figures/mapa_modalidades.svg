@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <circle cx="200" cy="200" r="160" fill="#e0e0e0" stroke="#808080" stroke-width="2"/>
+ <text x="200" y="200" font-size="18" text-anchor="middle" fill="#000">Vacuum Substrate</text>
+ <line x1="200" y1="200" x2="200" y2="40" stroke="#000"/>
+ <text x="200" y="30" font-size="14" text-anchor="middle">Matter</text>
+ <line x1="200" y1="200" x2="360" y2="200" stroke="#000"/>
+ <text x="380" y="205" font-size="14" text-anchor="start">Energy</text>
+ <line x1="200" y1="200" x2="200" y2="360" stroke="#000"/>
+ <text x="200" y="385" font-size="14" text-anchor="middle">Dark Matter</text>
+ <line x1="200" y1="200" x2="40" y2="200" stroke="#000"/>
+ <text x="0" y="205" font-size="14" text-anchor="start">Dark Energy</text>
+</svg>

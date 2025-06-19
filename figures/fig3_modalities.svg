@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300">
+<circle cx="200" cy="150" r="100" fill="none" stroke="black" stroke-width="2"/>
+<text x="200" y="150" font-size="16" text-anchor="middle" dominant-baseline="middle">Vacuum</text>
+<text x="200" y="30" font-size="14" text-anchor="middle">Matter</text>
+<line x1="200" y1="150" x2="200" y2="50" stroke="black" />
+<text x="370" y="155" font-size="14" text-anchor="middle">Energy</text>
+<line x1="200" y1="150" x2="300" y2="150" stroke="black" />
+<text x="200" y="280" font-size="14" text-anchor="middle">Dark Matter</text>
+<line x1="200" y1="150" x2="200" y2="250" stroke="black" />
+<text x="30" y="155" font-size="14">Dark Energy</text>
+<line x1="200" y1="150" x2="100" y2="150" stroke="black" />
+</svg>
