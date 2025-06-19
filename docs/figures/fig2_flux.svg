@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300">
+<rect x="20" y="120" width="100" height="40" fill="#e0e0ff" stroke="black"/>
+<text x="70" y="145" font-size="12" text-anchor="middle">Lagrangiana</text>
+<rect x="150" y="40" width="100" height="40" fill="#ffe0e0" stroke="black"/>
+<text x="200" y="65" font-size="12" text-anchor="middle">Sequestro</text>
+<rect x="150" y="200" width="100" height="40" fill="#e0ffe0" stroke="black"/>
+<text x="200" y="225" font-size="12" text-anchor="middle">Σ-métrica</text>
+<rect x="280" y="120" width="100" height="40" fill="#ffffe0" stroke="black"/>
+<text x="330" y="145" font-size="12" text-anchor="middle">Modalidades</text>
+<line x1="120" y1="140" x2="150" y2="60" stroke="black" marker-end="url(#arrow)"/>
+<line x1="120" y1="140" x2="150" y2="220" stroke="black" marker-end="url(#arrow)"/>
+<line x1="250" y1="60" x2="280" y2="140" stroke="black" marker-end="url(#arrow)"/>
+<line x1="250" y1="220" x2="280" y2="140" stroke="black" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="4" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 z" fill="black"/></marker></defs>
+</svg>
