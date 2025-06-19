@@ -4,394 +4,258 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Vacuum of Being - A Philosophical and Scientific Inquiry</title>
-    <meta name="description" content="A comprehensive scientific framework proposing the vacuum as the universal substrate of reality, unifying matter, energy, dark matter, and dark energy.">
-    <meta name="keywords" content="vacuum physics, cosmological constant, dark matter, dark energy, quantum field theory, theoretical physics">
-    <meta name="author" content="Carlos Silva">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://carlossilvatbh.github.io/vacuum-of-being/">
-    <meta property="og:title" content="The Vacuum of Being - Scientific Treatise">
-    <meta property="og:description" content="Revolutionary framework unifying all physical phenomena under vacuum substrate theory">
-    <meta property="og:image" content="https://carlossilvatbh.github.io/vacuum-of-being/figures/fig3_modalities.svg">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://carlossilvatbh.github.io/vacuum-of-being/">
-    <meta property="twitter:title" content="The Vacuum of Being - Scientific Treatise">
-    <meta property="twitter:description" content="Revolutionary framework unifying all physical phenomena under vacuum substrate theory">
-    <meta property="twitter:image" content="https://carlossilvatbh.github.io/vacuum-of-being/figures/fig3_modalities.svg">
-
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/svg+xml" href="figures/fig3_modalities.svg">
     
-    <!-- MathJax configuration -->
+    <!-- MathJax Configuration -->
     <script>
         window.MathJax = {
             tex: {
                 inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true
             },
-            startup: {
-                ready: () => {
-                    console.log('MathJax is loaded and ready');
-                    MathJax.startup.defaultReady();
-                }
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
             }
         };
     </script>
-    
-    <!-- MathJax for equation rendering -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
             <h1>The Vacuum of Being</h1>
             <p class="subtitle">A Philosophical and Scientific Inquiry Into the Substrate of Reality</p>
-            <p class="version">Version 3.0 - Complete Development | June 2025</p>
-        </div>
-    </header>
+            <p class="author">Complete Two-Part Treatise</p>
+        </header>
 
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <ul>
-                <li><a href="#abstract" class="nav-link active">Main Paper</a></li>
-                <li><a href="evolution.html" class="nav-link">Evolution</a></li>
-                <li><a href="original_thesis.html" class="nav-link">Original Thesis</a></li>
-                <li><a href="#download" class="nav-link">Downloads</a></li>
-                <li><a href="https://github.com/carlossilvatbh/vacuum-of-being" target="_blank" class="nav-link">GitHub</a></li>
-            </ul>
-        </div>
-    </nav>
+        <!-- Navigation -->
+        <nav class="nav">
+            <a href="#overview" class="nav-link">Overview</a>
+            <a href="#part1" class="nav-link">Part I: Philosophy</a>
+            <a href="#part2" class="nav-link">Part II: Science</a>
+            <a href="#evolution" class="nav-link">Evolution</a>
+            <a href="#downloads" class="nav-link">Downloads</a>
+        </nav>
 
-    <!-- Main Content -->
-    <div class="container">
+        <!-- Main Content -->
         <div class="main-content">
             <!-- Sidebar -->
             <aside class="sidebar">
-                <h3>Quick Navigation</h3>
-                <ul>
-                    <li><a href="#abstract">Abstract</a></li>
-                    <li><a href="#key-contributions">Key Contributions</a></li>
-                    <li><a href="#mathematical-framework">Mathematical Framework</a></li>
-                    <li><a href="#four-modalities">Four Modalities</a></li>
-                    <li><a href="#cosmological-constant">Cosmological Constant</a></li>
-                    <li><a href="#experimental-predictions">Experimental Predictions</a></li>
-                    <li><a href="#technological-implications">Technology</a></li>
-                    <li><a href="#conclusion">Conclusion</a></li>
-                </ul>
-                
-                <h3 style="margin-top: 2rem;">Resources</h3>
-                <ul>
-                    <li><a href="evolution.html">Evolution Timeline</a></li>
-                    <li><a href="original_thesis.html">Original Philosophy</a></li>
-                    <li><a href="https://github.com/carlossilvatbh/vacuum-of-being" target="_blank">GitHub Repository</a></li>
-                    <li><a href="#download">Download PDFs</a></li>
-                    <li><a href="#bibliography">Bibliography (48+ refs)</a></li>
-                    <li><a href="mailto:carlos@example.com">Contact Author</a></li>
-                </ul>
+                <div class="sidebar-section">
+                    <h3 style="margin-bottom: 15px; color: #2c3e50;">Quick Access</h3>
+                    <div class="quick-links">
+                        <a href="complete_two_part_treatise.pdf" class="btn btn-primary">📄 Complete Treatise PDF</a>
+                        <a href="original_thesis.html" class="btn btn-secondary">🧠 Part I Only</a>
+                        <a href="evolution.html" class="btn btn-accent">📈 Evolution Timeline</a>
+                        <a href="https://github.com/carlossilvatbh/vacuum-of-being" class="btn btn-github">💻 GitHub Repository</a>
+                    </div>
+                </div>
 
-                <h3 style="margin-top: 2rem;">Status</h3>
-                <div style="margin-top: 1rem;">
-                    <span class="badge success">Complete</span><br><br>
-                    <span class="badge">v3.0</span><br><br>
-                    <span class="badge warning">Peer Review Ready</span>
+                <div class="sidebar-section">
+                    <h3 style="margin-bottom: 15px; color: #2c3e50;">Structure</h3>
+                    <div class="toc">
+                        <div class="toc-part">
+                            <strong>Part I: Original Philosophy</strong>
+                            <ul>
+                                <li><a href="#prologue">Prologue</a></li>
+                                <li><a href="#nature-energy">I. Nature of Energy</a></li>
+                                <li><a href="#manipulation">II. Manipulation Over Magnitude</a></li>
+                                <li><a href="#vacuum-being">III. Vacuum of Being</a></li>
+                                <li><a href="#manifestation">IV. Manifestation Framework</a></li>
+                                <li><a href="#experiments">V. Experimental Consistency</a></li>
+                                <li><a href="#philosophy">VI. Philosophical Reflections</a></li>
+                                <li><a href="#technology">VII. Technological Implications</a></li>
+                                <li><a href="#conclusion-p1">VIII. Conclusion</a></li>
+                            </ul>
+                        </div>
+                        <div class="toc-part">
+                            <strong>Part II: Academic Framework</strong>
+                            <ul>
+                                <li><a href="#abstract">Abstract</a></li>
+                                <li><a href="#introduction">1. Introduction</a></li>
+                                <li><a href="#mathematics">2. Mathematical Framework</a></li>
+                                <li><a href="#predictions">3. Experimental Predictions</a></li>
+                                <li><a href="#cosmology">4. Cosmological Implications</a></li>
+                                <li><a href="#discussion">5. Discussion</a></li>
+                                <li><a href="#conclusion-p2">6. Conclusion</a></li>
+                                <li><a href="#references">References</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </aside>
 
-            <!-- Content -->
+            <!-- Content Area -->
             <main class="content">
-                <!-- Abstract -->
-                <section id="abstract">
-                    <div class="abstract">
+                <!-- Overview Section -->
+                <section id="overview" class="section">
+                    <h2>Overview</h2>
+                    <div class="overview-grid">
+                        <div class="overview-card">
+                            <h3>🧠 Part I: Original Philosophical Inquiry</h3>
+                            <p>The authentic philosophical foundation that sparked this investigation. Written in the author's original voice, this part explores the fundamental questions about the nature of reality, energy, and the vacuum through pure philosophical reasoning.</p>
+                            <p><strong>Key Themes:</strong> Being vs. nothingness, energy-matter equivalence, vacuum as substrate, technological implications</p>
+                        </div>
+                        <div class="overview-card">
+                            <h3>🔬 Part II: Academic Scientific Framework</h3>
+                            <p>The rigorous scientific development of the philosophical insights. This part provides mathematical formalism, experimental predictions, and academic analysis suitable for peer review and scientific discourse.</p>
+                            <p><strong>Key Elements:</strong> Mathematical framework, testable predictions, cosmological implications, experimental protocols</p>
+                        </div>
+                    </div>
+                    
+                    <div class="evolution-summary">
+                        <h3>📈 Evolution Summary</h3>
+                        <p>This treatise represents a unique journey from philosophical speculation to scientific rigor. Part I preserves the original philosophical insights that guided the investigation, while Part II develops these ideas into a formal scientific framework with testable predictions and mathematical foundations.</p>
+                        <p><strong>Unified Hypothesis:</strong> The quantum vacuum serves as the fundamental substrate for all physical phenomena, with matter, energy, dark matter, and dark energy emerging as distinct configurational states of the vacuum field.</p>
+                    </div>
+                </section>
+
+                <!-- Part I Section -->
+                <section id="part1" class="section">
+                    <h2>Part I: Original Philosophical Inquiry</h2>
+                    
+                    <div id="prologue" class="subsection">
+                        <h3>Prologue — The Origin of a Question</h3>
+                        <p>It begins with a question as old as the discovery of energy itself, yet surprisingly unresolved at its deepest level. If Einstein's equation, E = mc², teaches us that energy and mass are fundamentally equivalent, then does this equivalence imply a symmetrical, bidirectional relationship? Specifically, can energy be transformed into matter just as readily as matter can be transformed into energy?</p>
+                        
+                        <p>At first glance, modern physics answers this affirmatively. Indeed, in highly controlled and extreme conditions — within the collision chambers of particle accelerators or the violent aftermath of gamma-ray interactions — energy does transform into matter. Pair production is a well-documented phenomenon: a photon with sufficient energy passing near an atomic nucleus may give rise to an electron and its antiparticle counterpart, the positron.</p>
+                        
+                        <p>Yet despite this, humanity remains fundamentally bound to an asymmetry in practice. While we can unleash energy from matter with devastating ease — through nuclear fission, fusion, and annihilation — the reverse remains elusive. Matter creation from energy demands conditions that border on the impractical: colossal energies, extreme accelerations, and vast technological infrastructures. The universe itself accomplished it with apparent ease during the first microseconds following the Big Bang. Why does it now appear so prohibitive?</p>
+                        
+                        <p>The answer often defaults to a kind of resigned practicality: energy-to-matter conversion requires "a lot of energy." But this response feels incomplete. It raises a deeper question: is the barrier truly the quantity of energy required? Or are we facing a deeper problem — one not of scale but of structure? Is it possible that the primary challenge in transforming energy into matter lies not in how much energy one applies, but in how that energy is manipulated, how it is coherently structured, configured, and brought into resonance with the deeper fabric of reality?</p>
+                        
+                        <p><strong>This is the threshold where our investigation begins — at the edge between the known and the speculative, between the equations that describe the universe and the questions they silently imply.</strong></p>
+                    </div>
+
+                    <div class="philosophy-note">
+                        <p><strong>Note:</strong> Part I represents the author's original philosophical inquiry, preserved exactly as conceived. This authentic voice captures the wonder, speculation, and deep questioning that led to the scientific framework developed in Part II.</p>
+                        <p><a href="original_thesis.html" class="btn btn-secondary">Read Part I in Full →</a></p>
+                    </div>
+                </section>
+
+                <!-- Part II Section -->
+                <section id="part2" class="section">
+                    <h2>Part II: Academic Scientific Framework</h2>
+                    
+                    <div id="abstract" class="subsection">
                         <h3>Abstract</h3>
-                        <p>We propose that the vacuum is not empty but constitutes the universal substrate of all existence. Matter, energy, dark matter, and dark energy are different modalities of the vacuum field, distinguished by their configuration, excitation, or resonance patterns quantified by the structuring metric $\Sigma$. This framework addresses the cosmological constant problem through dynamic sequestering mechanisms and provides specific testable predictions for vacuum engineering technologies.</p>
+                        <p>This paper presents a comprehensive theoretical framework proposing that the quantum vacuum serves as the fundamental substrate for all physical phenomena. Building upon established quantum field theory and cosmological observations, we develop a unified model where matter, energy, dark matter, and dark energy emerge as distinct configurational states of the vacuum field. The framework addresses the cosmological constant problem through the Kaloper-Padilla sequestering mechanism and provides testable predictions for vacuum manipulation technologies. Our analysis demonstrates full consistency with experimental observations while offering novel insights into the nature of reality and potential technological applications.</p>
+                    </div>
+
+                    <div id="mathematics" class="subsection">
+                        <h3>2. Mathematical Framework</h3>
                         
-                        <p><strong>Key Results:</strong> Complete mathematical derivations, expanded bibliography (48+ references), detailed experimental predictions (8+ protocols), and technological roadmap for vacuum engineering applications.</p>
-                    </div>
-                </section>
-
-                <!-- Key Contributions -->
-                <section id="key-contributions">
-                    <h2>Key Contributions</h2>
-                    
-                    <div class="highlight success">
-                        <h4>🎯 Theoretical Unification</h4>
-                        <p>Unifies matter, energy, dark matter, and dark energy under a single vacuum substrate framework with quantitative mathematical formalism.</p>
-                    </div>
-
-                    <div class="highlight info">
-                        <h4>🔬 Cosmological Constant Solution</h4>
-                        <p>Addresses the 120 orders of magnitude discrepancy through the Kaloper-Padilla dynamic sequestering mechanism.</p>
-                    </div>
-
-                    <div class="highlight warning">
-                        <h4>🧪 Testable Predictions</h4>
-                        <p>Provides 8+ specific experimental predictions with clear falsification criteria and measurement protocols.</p>
-                    </div>
-
-                    <div class="highlight">
-                        <h4>🚀 Technological Roadmap</h4>
-                        <p>Outlines pathways for vacuum engineering, energy extraction, and artificial gravity generation.</p>
-                    </div>
-                </section>
-
-                <!-- Mathematical Framework -->
-                <section id="mathematical-framework">
-                    <h2>Mathematical Framework</h2>
-                    
-                    <h3>Effective Lagrangian</h3>
-                    <p>The vacuum bundle sections $E \rightarrow \mathbb{M}^4$ are described by fields $\Phi_i$ with effective Lagrangian:</p>
-                    
-                    <div class="equation">
-                        $$\mathcal{L} = \sum_i\left[\frac{1}{2}(\partial_\mu\Phi_i)^2 - V_i(\Phi_i)\right] + \lambda \Psi + \alpha\frac{\Psi^2}{M_{\text{Pl}}^2}$$
-                    </div>
-
-                    <h3>Structuring Metric</h3>
-                    <p>We define the vacuum structuring metric as:</p>
-                    
-                    <div class="equation">
-                        $$\Sigma = \frac{1}{V_\Omega}\int_\Omega |\nabla\Phi|^{2}\,d^{3}x$$
-                    </div>
-
-                    <p>This quantifies the topological coherence of vacuum configurations and serves as the fundamental parameter distinguishing different modalities of reality.</p>
-
-                    <h3>Critical Value</h3>
-                    <p>The critical structuring value separating modalities is:</p>
-                    
-                    <div class="equation">
-                        $$\Sigma_{\text{crit}} = \frac{(M_{\text{Pl}} c^2)^2}{\lambda_{\text{Compton}}^2} \sim 10^{60} \text{ GeV}^2/\text{cm}^2$$
-                    </div>
-                </section>
-
-                <!-- Four Modalities -->
-                <section id="four-modalities">
-                    <h2>The Four Modalities</h2>
-                    
-                    <div class="figure">
-                        <img src="figures/fig3_modalities.svg" alt="Four Modalities of the Vacuum Field" style="max-width: 600px;">
-                        <div class="figure-caption">
-                            <strong>Figure 1:</strong> The four fundamental modalities of the vacuum field, characterized by different ranges of the structuring metric $\Sigma$.
-                        </div>
-                    </div>
-
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Modality</th>
-                                <th>Structuring Range</th>
-                                <th>Physical Manifestation</th>
-                                <th>Examples</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><strong>Dark Energy</strong></td>
-                                <td>$\Sigma \approx 0$</td>
-                                <td>Homogeneous vacuum tension</td>
-                                <td>Cosmological constant, vacuum energy</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Energy</strong></td>
-                                <td>$0 < \Sigma < \Sigma_{\text{crit}}$</td>
-                                <td>Propagating disturbances</td>
-                                <td>Photons, gravitational waves</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Matter</strong></td>
-                                <td>$\Sigma > \Sigma_{\text{crit}}$</td>
-                                <td>Stable, localized excitations</td>
-                                <td>Particles, atoms, macroscopic objects</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Dark Matter</strong></td>
-                                <td>$\Sigma \gg \Sigma_{\text{crit}}$</td>
-                                <td>Highly structured, EM-decoupled</td>
-                                <td>Galactic halos, large-scale structure</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-
-                <!-- Cosmological Constant Solution -->
-                <section id="cosmological-constant">
-                    <h2>Solution to the Cosmological Constant Problem</h2>
-                    
-                    <p>The cosmological constant problem - the 120 orders of magnitude discrepancy between predicted and observed vacuum energy - is resolved through the dynamic sequestering mechanism.</p>
-
-                    <h3>The Sequestering Field</h3>
-                    <p>The sequestering field $\Psi$ satisfies:</p>
-                    
-                    <div class="equation">
-                        $$\Box \Psi + \lambda = \alpha \frac{2\Psi}{M_{\text{Pl}}^2}$$
-                    </div>
-
-                    <p>This ensures that the total vacuum contribution to Einstein's equations becomes:</p>
-                    
-                    <div class="equation">
-                        $$T_{\mu\nu}^{\text{vac}} = \langle T_{\mu\nu}^{\text{matter}} \rangle + \langle T_{\mu\nu}^{\Psi} \rangle = \rho_{\text{DE}} g_{\mu\nu}$$
-                    </div>
-
-                    <p>where $\rho_{\text{DE}} \sim (10^{-3} \text{ eV})^4$ is the observed dark energy density, naturally explaining the observed value without fine-tuning.</p>
-                </section>
-
-                <!-- Experimental Predictions -->
-                <section id="experimental-predictions">
-                    <h2>Experimental Predictions</h2>
-                    
-                    <h3>1. Modified Casimir Effect</h3>
-                    <div class="highlight info">
-                        <p><strong>Prediction:</strong> The Casimir force between structured plates is modified:</p>
+                        <h4>2.1 Effective Lagrangian</h4>
+                        <p>The effective Lagrangian describing vacuum field configurations is given by:</p>
                         <div class="equation">
-                            $$F_{\text{Casimir}} = F_{\text{standard}} \times \left[1 + 0.1 \left(\frac{\Sigma}{\Sigma_{\text{quantum}}}\right)^{0.5}\right]$$
+                            $$\mathcal{L}_{eff} = \mathcal{L}_{QFT} + \mathcal{L}_{struct} + \mathcal{L}_{seq}$$
                         </div>
-                        <p><strong>Test:</strong> Parallel plate setup with controlled surface structuring, force measurement to $10^{-15}$ N precision.</p>
-                        <p><strong>Falsification:</strong> No deviation from standard Casimir force within 1% precision.</p>
-                    </div>
-
-                    <h3>2. Vacuum Birefringence</h3>
-                    <div class="highlight info">
-                        <p><strong>Prediction:</strong> Structured vacuum exhibits optical birefringence:</p>
-                        <div class="equation">
-                            $$\Delta n = \frac{\alpha_{\text{fine}}}{\pi} \times \frac{\Sigma}{\Sigma_{\text{quantum}}} \times \frac{E^2}{E_{\text{crit}}^2}$$
-                        </div>
-                        <p><strong>Test:</strong> High-intensity laser polarimetry with sensitivity to $\Delta n \sim 10^{-20}$.</p>
-                        <p><strong>Falsification:</strong> No birefringence detected above noise level ($10^{-21}$).</p>
-                    </div>
-
-                    <h3>3. Quantized Thresholds</h3>
-                    <div class="highlight info">
-                        <p><strong>Prediction:</strong> Vacuum properties exhibit quantized behavior:</p>
-                        <div class="equation">
-                            $$\Sigma_n = n^2 \times \Sigma_{\text{quantum}}$$
-                        </div>
-                        <p>with $n = 0, 1, 2, 3, \ldots$ corresponding to different modalities.</p>
-                        <p><strong>Test:</strong> Controlled field scanning across predicted thresholds with real-time $\Sigma$ monitoring.</p>
-                        <p><strong>Falsification:</strong> Continuous rather than quantized behavior.</p>
-                    </div>
-                </section>
-
-                <!-- Technological Implications -->
-                <section id="technological-implications">
-                    <h2>Technological Implications</h2>
-                    
-                    <p>If validated, this framework enables revolutionary technologies:</p>
-
-                    <h3>Vacuum Engineering</h3>
-                    <ul>
-                        <li><strong>Matter Synthesis:</strong> Controlled creation of matter from vacuum fluctuations</li>
-                        <li><strong>Energy Extraction:</strong> Harvesting energy with efficiency $\eta \sim 10^{-6}$</li>
-                        <li><strong>Gravitational Control:</strong> Artificial gravity generation through $\Sigma$ gradients</li>
-                    </ul>
-
-                    <h3>Advanced Applications</h3>
-                    <div class="equation">
-                        $$g_{\text{artificial}} = \frac{G}{c^2} \times \frac{d\Sigma}{dx} \times \rho_{\text{vacuum}}$$
-                    </div>
-
-                    <ul>
-                        <li><strong>Propulsion Systems:</strong> Reactionless drives using vacuum manipulation</li>
-                        <li><strong>Quantum Technologies:</strong> Enhanced quantum devices and computers</li>
-                        <li><strong>Fundamental Research:</strong> Direct tests of quantum gravity theories</li>
-                    </ul>
-                </section>
-
-                <!-- Download Section -->
-                <section id="download">
-                    <div class="download-section">
-                        <h2>📄 Download Complete Project</h2>
-                        <p>Access the complete evolution from philosophical inquiry to rigorous scientific framework.</p>
-                        
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin: 2rem 0;">
-                            <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 10px;">
-                                <h4>🔬 Scientific Framework</h4>
-                                <p>Complete mathematical and experimental development</p>
-                                <a href="vacuum_of_being_complete.pdf" class="btn btn-primary">Download v3.0 PDF</a>
-                            </div>
-                            
-                            <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 10px;">
-                                <h4>🧠 Original Philosophy</h4>
-                                <p>The foundational philosophical inquiry</p>
-                                <a href="original_philosophical_thesis.pdf" class="btn btn-accent">Download v1.0 PDF</a>
-                            </div>
-                            
-                            <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 10px;">
-                                <h4>📈 Evolution Timeline</h4>
-                                <p>See the complete development journey</p>
-                                <a href="evolution.html" class="btn">View Timeline</a>
-                            </div>
-                        </div>
-
-                        <div style="margin: 2rem 0;">
-                            <a href="https://github.com/carlossilvatbh/vacuum-of-being" class="btn">Complete GitHub Repository</a>
-                        </div>
-
-                        <p><strong>Complete Project Includes:</strong></p>
-                        <ul style="text-align: left; display: inline-block;">
-                            <li>Original philosophical thesis (v1.0)</li>
-                            <li>Complete scientific framework (v3.0)</li>
-                            <li>Mathematical derivations (20+ pages)</li>
-                            <li>Expanded bibliography (48+ peer-reviewed references)</li>
-                            <li>Detailed experimental predictions (8+ protocols)</li>
-                            <li>Evolution timeline and analysis</li>
-                            <li>High-quality figures and diagrams</li>
-                            <li>LaTeX source code for collaboration</li>
-                            <li>Professional web visualization</li>
+                        <p>where:</p>
+                        <ul>
+                            <li>$\mathcal{L}_{QFT}$ represents the standard quantum field theory Lagrangian</li>
+                            <li>$\mathcal{L}_{struct}$ describes structural vacuum configurations</li>
+                            <li>$\mathcal{L}_{seq}$ implements the Kaloper-Padilla sequestering mechanism</li>
                         </ul>
+
+                        <h4>2.2 Vacuum Structuring Metric</h4>
+                        <p>The vacuum structuring metric $\Sigma_{\mu\nu}$ characterizes different manifestation modes:</p>
+                        <div class="equation">
+                            $$\Sigma_{\mu\nu} = g_{\mu\nu} + h_{\mu\nu}^{(matter)} + h_{\mu\nu}^{(dark)} + h_{\mu\nu}^{(energy)}$$
+                        </div>
+                        <p>where each $h_{\mu\nu}$ term represents perturbations corresponding to different vacuum configurations.</p>
+                    </div>
+
+                    <div id="predictions" class="subsection">
+                        <h3>3. Experimental Predictions and Testable Hypotheses</h3>
+                        
+                        <h4>3.1 Modified Casimir Effect</h4>
+                        <p>The framework predicts modifications to the Casimir effect under specific field configurations:</p>
+                        <div class="equation">
+                            $$F_{Casimir} = F_{standard} \cdot (1 + \alpha \cdot \Phi_{config})$$
+                        </div>
+                        <p>where $\Phi_{config}$ represents the vacuum configuration field and $\alpha$ is a coupling constant.</p>
+
+                        <h4>3.2 Vacuum Birefringence</h4>
+                        <p>Structured vacuum states should exhibit measurable birefringence effects:</p>
+                        <div class="equation">
+                            $$\Delta n = \beta \cdot |\Psi_{vacuum}|^2$$
+                        </div>
+                        <p>where $\beta$ is the vacuum birefringence coefficient and $\Psi_{vacuum}$ is the vacuum state function.</p>
+                    </div>
+
+                    <div class="academic-note">
+                        <p><strong>Note:</strong> Part II provides the complete academic framework with detailed mathematical derivations, experimental protocols, and comprehensive bibliography. This section represents the scientific formalization of the philosophical insights from Part I.</p>
                     </div>
                 </section>
 
-                <!-- Bibliography -->
-                <section id="bibliography">
-                    <h2>Bibliography (Selected References)</h2>
-                    <div class="bibliography">
-                        <ol>
-                            <li>Weinberg, S. (1989). "The cosmological constant problem." <em>Reviews of Modern Physics</em>, 61(1), 1-23.</li>
-                            <li>Casimir, H. B. G. (1948). "On the attraction between two perfectly conducting plates." <em>Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen</em>, 51, 793-795.</li>
-                            <li>Kaloper, N., & Padilla, A. (2014). "Sequestering the Standard Model Vacuum Energy." <em>Physical Review Letters</em>, 112(9), 091304.</li>
-                            <li>Verlinde, E. (2016). "Emergent Gravity and the Dark Universe." arXiv:1611.02269 [hep-th].</li>
-                            <li>Verlinde, E. (2010). "On the Origin of Gravity and the Laws of Newton." arXiv:1001.0785 [hep-th].</li>
-                        </ol>
-                        <p><strong>Complete bibliography with 48+ references available in the full PDF.</strong></p>
+                <!-- Downloads Section -->
+                <section id="downloads" class="section">
+                    <h2>Downloads & Resources</h2>
+                    <div class="downloads-grid">
+                        <div class="download-card">
+                            <h3>📄 Complete Two-Part Treatise</h3>
+                            <p>The full document combining both philosophical and scientific parts in a unified presentation.</p>
+                            <div class="download-actions">
+                                <a href="complete_two_part_treatise.pdf" class="btn btn-primary">Download Complete PDF</a>
+                                <span class="file-info">~150 pages | Academic format</span>
+                            </div>
+                        </div>
+                        
+                        <div class="download-card">
+                            <h3>🧠 Part I: Original Philosophy</h3>
+                            <p>The authentic philosophical inquiry that started this investigation, preserved in the author's original voice.</p>
+                            <div class="download-actions">
+                                <a href="original_philosophical_thesis.pdf" class="btn btn-accent">Download Philosophy PDF</a>
+                                <a href="original_thesis.html" class="btn btn-secondary">Read Online</a>
+                            </div>
+                        </div>
+                        
+                        <div class="download-card">
+                            <h3>🔬 Academic Version</h3>
+                            <p>The scientific framework with mathematical formalism and experimental predictions.</p>
+                            <div class="download-actions">
+                                <a href="vacuum_of_being_complete.pdf" class="btn btn-primary">Download Academic PDF</a>
+                                <span class="file-info">Peer-review ready</span>
+                            </div>
+                        </div>
+                        
+                        <div class="download-card">
+                            <h3>📈 Evolution Timeline</h3>
+                            <p>Interactive timeline showing the development from philosophical speculation to scientific framework.</p>
+                            <div class="download-actions">
+                                <a href="evolution.html" class="btn btn-accent">View Timeline</a>
+                                <span class="file-info">Interactive web page</span>
+                            </div>
+                        </div>
+                        
+                        <div class="download-card">
+                            <h3>💻 Source Code</h3>
+                            <p>Complete project repository with LaTeX sources, figures, and documentation.</p>
+                            <div class="download-actions">
+                                <a href="https://github.com/carlossilvatbh/vacuum-of-being" class="btn btn-github">GitHub Repository</a>
+                                <span class="file-info">Open source | MIT License</span>
+                            </div>
+                        </div>
                     </div>
-                </section>
-
-                <!-- Conclusion -->
-                <section id="conclusion">
-                    <h2>Conclusion</h2>
-                    
-                    <div class="highlight success">
-                        <p>The vacuum emerges not as emptiness, but as the fundamental substrate of reality in standby mode. Its modalities—matter, energy, dark matter, and dark energy—represent different structural configurations quantified by the metric $\Sigma$.</p>
-                    </div>
-
-                    <p>This framework provides:</p>
-                    <ul>
-                        <li><strong>Theoretical Unity:</strong> Unification of all known phenomena under vacuum dynamics</li>
-                        <li><strong>Problem Resolution:</strong> Solutions to cosmological constant and dark sector mysteries</li>
-                        <li><strong>Experimental Testability:</strong> Specific predictions with clear falsification criteria</li>
-                        <li><strong>Technological Pathways:</strong> Routes to vacuum engineering and advanced technologies</li>
-                        <li><strong>Philosophical Insight:</strong> New understanding of the nature of existence itself</li>
-                    </ul>
-
-                    <p><em>The universe is not built from particles in empty space, but from structured patterns in the fabric of reality itself. We are not separate from the vacuum—we are the vacuum, temporarily organized into conscious form.</em></p>
                 </section>
             </main>
         </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 The Vacuum of Being Project. Licensed under MIT License.</p>
+            <p>
+                <a href="https://github.com/carlossilvatbh/vacuum-of-being">GitHub</a> | 
+                <a href="evolution.html">Evolution</a> | 
+                <a href="original_thesis.html">Original Philosophy</a>
+            </p>
+        </footer>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 The Vacuum of Being Project. Licensed under <a href="https://github.com/carlossilvatbh/vacuum-of-being/blob/main/LICENSE">MIT License</a>.</p>
-            <p>For questions, collaborations, or discussions: <a href="https://github.com/carlossilvatbh/vacuum-of-being/issues">GitHub Issues</a> | <a href="mailto:carlos@example.com">Email</a></p>
-        </div>
-    </footer>
-
-    <!-- JavaScript for smooth scrolling and navigation -->
     <script>
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -407,48 +271,26 @@
             });
         });
 
-        // Active navigation highlighting
-        window.addEventListener('scroll', () => {
-            const sections = document.querySelectorAll('section[id]');
-            const navLinks = document.querySelectorAll('.nav-link');
-            
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (scrollY >= (sectionTop - 200)) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === '#' + current) {
-                    link.classList.add('active');
-                }
-            });
-        });
-
-        // Copy equation to clipboard on click
+        // Copy equation to clipboard functionality
         document.querySelectorAll('.equation').forEach(eq => {
             eq.addEventListener('click', function() {
-                navigator.clipboard.writeText(this.textContent);
-                this.style.backgroundColor = '#d4edda';
-                setTimeout(() => {
-                    this.style.backgroundColor = '';
-                }, 1000);
+                const text = this.textContent;
+                navigator.clipboard.writeText(text).then(() => {
+                    // Visual feedback
+                    this.style.backgroundColor = '#e8f5e8';
+                    setTimeout(() => {
+                        this.style.backgroundColor = '';
+                    }, 500);
+                });
             });
         });
 
-        // Force MathJax to reprocess equations when page loads
+        // Force MathJax to reprocess equations after page load
         window.addEventListener('load', function() {
-            if (window.MathJax && window.MathJax.typesetPromise) {
-                console.log('Reprocessing MathJax equations...');
+            if (window.MathJax) {
                 MathJax.typesetPromise().then(() => {
-                    console.log('MathJax equations processed successfully');
-                }).catch((err) => {
-                    console.error('MathJax processing error:', err);
-                });
+                    console.log('MathJax rendering complete');
+                }).catch((err) => console.log('MathJax error: ' + err.message));
             }
         });
     </script>
